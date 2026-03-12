@@ -1,0 +1,3174 @@
+{
+  "tables": [
+    {
+      "table_id": "hosp\\admissions.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\admissions.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "admittime",
+        "dischtime",
+        "deathtime",
+        "admission_type",
+        "admit_provider_id",
+        "admission_location",
+        "discharge_location",
+        "insurance",
+        "language",
+        "marital_status",
+        "race",
+        "edregtime",
+        "edouttime",
+        "hospital_expire_flag"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "admittime": "object",
+        "dischtime": "object",
+        "deathtime": "object",
+        "admission_type": "object",
+        "admit_provider_id": "object",
+        "admission_location": "object",
+        "discharge_location": "object",
+        "insurance": "object",
+        "language": "object",
+        "marital_status": "object",
+        "race": "object",
+        "edregtime": "object",
+        "edouttime": "object",
+        "hospital_expire_flag": "int64"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\diagnoses_icd.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\diagnoses_icd.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "seq_num",
+        "icd_code",
+        "icd_version"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "seq_num": "int64",
+        "icd_code": "object",
+        "icd_version": "int64"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\drgcodes.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\drgcodes.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "drg_type",
+        "drg_code",
+        "description",
+        "drg_severity",
+        "drg_mortality"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "drg_type": "object",
+        "drg_code": "int64",
+        "description": "object",
+        "drg_severity": "float64",
+        "drg_mortality": "float64"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\d_hcpcs.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\d_hcpcs.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "code",
+        "category",
+        "long_description",
+        "short_description"
+      ],
+      "dtypes": {
+        "code": "object",
+        "category": "float64",
+        "long_description": "float64",
+        "short_description": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\d_icd_diagnoses.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\d_icd_diagnoses.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "icd_code",
+        "icd_version",
+        "long_title"
+      ],
+      "dtypes": {
+        "icd_code": "int64",
+        "icd_version": "int64",
+        "long_title": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\d_icd_procedures.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\d_icd_procedures.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "icd_code",
+        "icd_version",
+        "long_title"
+      ],
+      "dtypes": {
+        "icd_code": "object",
+        "icd_version": "int64",
+        "long_title": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\d_labitems.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\d_labitems.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "itemid",
+        "label",
+        "fluid",
+        "category"
+      ],
+      "dtypes": {
+        "itemid": "int64",
+        "label": "object",
+        "fluid": "object",
+        "category": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\emar.zip::emar.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\emar.zip",
+      "member_path": "emar.csv",
+      "format": "zip_csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "emar_id",
+        "emar_seq",
+        "poe_id",
+        "pharmacy_id",
+        "enter_provider_id",
+        "charttime",
+        "medication",
+        "event_txt",
+        "scheduletime",
+        "storetime"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "float64",
+        "emar_id": "object",
+        "emar_seq": "int64",
+        "poe_id": "object",
+        "pharmacy_id": "float64",
+        "enter_provider_id": "object",
+        "charttime": "object",
+        "medication": "object",
+        "event_txt": "object",
+        "scheduletime": "object",
+        "storetime": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\emar_detail.zip",
+      "member_path": "emar_detail.csv",
+      "format": "zip_csv",
+      "columns": [
+        "subject_id",
+        "emar_id",
+        "emar_seq",
+        "parent_field_ordinal",
+        "administration_type",
+        "pharmacy_id",
+        "barcode_type",
+        "reason_for_no_barcode",
+        "complete_dose_not_given",
+        "dose_due",
+        "dose_due_unit",
+        "dose_given",
+        "dose_given_unit",
+        "will_remainder_of_dose_be_given",
+        "product_amount_given",
+        "product_unit",
+        "product_code",
+        "product_description",
+        "product_description_other",
+        "prior_infusion_rate",
+        "infusion_rate",
+        "infusion_rate_adjustment",
+        "infusion_rate_adjustment_amount",
+        "infusion_rate_unit",
+        "route",
+        "infusion_complete",
+        "completion_interval",
+        "new_iv_bag_hung",
+        "continued_infusion_in_other_location",
+        "restart_interval",
+        "side",
+        "site",
+        "non_formulary_visual_verification"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "emar_id": "object",
+        "emar_seq": "int64",
+        "parent_field_ordinal": "float64",
+        "administration_type": "object",
+        "pharmacy_id": "float64",
+        "barcode_type": "object",
+        "reason_for_no_barcode": "object",
+        "complete_dose_not_given": "object",
+        "dose_due": "object",
+        "dose_due_unit": "object",
+        "dose_given": "float64",
+        "dose_given_unit": "object",
+        "will_remainder_of_dose_be_given": "object",
+        "product_amount_given": "float64",
+        "product_unit": "object",
+        "product_code": "object",
+        "product_description": "object",
+        "product_description_other": "object",
+        "prior_infusion_rate": "float64",
+        "infusion_rate": "float64",
+        "infusion_rate_adjustment": "float64",
+        "infusion_rate_adjustment_amount": "float64",
+        "infusion_rate_unit": "float64",
+        "route": "object",
+        "infusion_complete": "float64",
+        "completion_interval": "object",
+        "new_iv_bag_hung": "float64",
+        "continued_infusion_in_other_location": "float64",
+        "restart_interval": "float64",
+        "side": "float64",
+        "site": "float64",
+        "non_formulary_visual_verification": "float64"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\hcpcsevents.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\hcpcsevents.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "chartdate",
+        "hcpcs_cd",
+        "seq_num",
+        "short_description"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "chartdate": "object",
+        "hcpcs_cd": "object",
+        "seq_num": "int64",
+        "short_description": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\labevents.zip::labevents.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\labevents.zip",
+      "member_path": "labevents.csv",
+      "format": "zip_csv",
+      "columns": [
+        "labevent_id",
+        "subject_id",
+        "hadm_id",
+        "specimen_id",
+        "itemid",
+        "order_provider_id",
+        "charttime",
+        "storetime",
+        "value",
+        "valuenum",
+        "valueuom",
+        "ref_range_lower",
+        "ref_range_upper",
+        "flag",
+        "priority",
+        "comments"
+      ],
+      "dtypes": {
+        "labevent_id": "int64",
+        "subject_id": "int64",
+        "hadm_id": "float64",
+        "specimen_id": "int64",
+        "itemid": "int64",
+        "order_provider_id": "object",
+        "charttime": "object",
+        "storetime": "object",
+        "value": "object",
+        "valuenum": "float64",
+        "valueuom": "object",
+        "ref_range_lower": "float64",
+        "ref_range_upper": "float64",
+        "flag": "object",
+        "priority": "object",
+        "comments": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\microbiologyevents.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\microbiologyevents.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "microevent_id",
+        "subject_id",
+        "hadm_id",
+        "micro_specimen_id",
+        "order_provider_id",
+        "chartdate",
+        "charttime",
+        "spec_itemid",
+        "spec_type_desc",
+        "test_seq",
+        "storedate",
+        "storetime",
+        "test_itemid",
+        "test_name",
+        "org_itemid",
+        "org_name",
+        "isolate_num",
+        "quantity",
+        "ab_itemid",
+        "ab_name",
+        "dilution_text",
+        "dilution_comparison",
+        "dilution_value",
+        "interpretation",
+        "comments"
+      ],
+      "dtypes": {
+        "microevent_id": "int64",
+        "subject_id": "int64",
+        "hadm_id": "float64",
+        "micro_specimen_id": "int64",
+        "order_provider_id": "object",
+        "chartdate": "object",
+        "charttime": "object",
+        "spec_itemid": "int64",
+        "spec_type_desc": "object",
+        "test_seq": "int64",
+        "storedate": "object",
+        "storetime": "object",
+        "test_itemid": "int64",
+        "test_name": "object",
+        "org_itemid": "float64",
+        "org_name": "object",
+        "isolate_num": "float64",
+        "quantity": "float64",
+        "ab_itemid": "float64",
+        "ab_name": "object",
+        "dilution_text": "object",
+        "dilution_comparison": "object",
+        "dilution_value": "float64",
+        "interpretation": "object",
+        "comments": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\omr.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\omr.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "subject_id",
+        "chartdate",
+        "seq_num",
+        "result_name",
+        "result_value"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "chartdate": "object",
+        "seq_num": "int64",
+        "result_name": "object",
+        "result_value": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\patients.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\patients.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "subject_id",
+        "gender",
+        "anchor_age",
+        "anchor_year",
+        "anchor_year_group",
+        "dod"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "gender": "object",
+        "anchor_age": "int64",
+        "anchor_year": "int64",
+        "anchor_year_group": "object",
+        "dod": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\pharmacy.zip",
+      "member_path": "pharmacy.csv",
+      "format": "zip_csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "pharmacy_id",
+        "poe_id",
+        "starttime",
+        "stoptime",
+        "medication",
+        "proc_type",
+        "status",
+        "entertime",
+        "verifiedtime",
+        "route",
+        "frequency",
+        "disp_sched",
+        "infusion_type",
+        "sliding_scale",
+        "lockout_interval",
+        "basal_rate",
+        "one_hr_max",
+        "doses_per_24_hrs",
+        "duration",
+        "duration_interval",
+        "expiration_value",
+        "expiration_unit",
+        "expirationdate",
+        "dispensation",
+        "fill_quantity"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "pharmacy_id": "int64",
+        "poe_id": "object",
+        "starttime": "object",
+        "stoptime": "object",
+        "medication": "object",
+        "proc_type": "object",
+        "status": "object",
+        "entertime": "object",
+        "verifiedtime": "object",
+        "route": "object",
+        "frequency": "object",
+        "disp_sched": "object",
+        "infusion_type": "object",
+        "sliding_scale": "object",
+        "lockout_interval": "float64",
+        "basal_rate": "float64",
+        "one_hr_max": "float64",
+        "doses_per_24_hrs": "float64",
+        "duration": "float64",
+        "duration_interval": "object",
+        "expiration_value": "float64",
+        "expiration_unit": "object",
+        "expirationdate": "float64",
+        "dispensation": "object",
+        "fill_quantity": "float64"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\poe.zip::poe.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\poe.zip",
+      "member_path": "poe.csv",
+      "format": "zip_csv",
+      "columns": [
+        "poe_id",
+        "poe_seq",
+        "subject_id",
+        "hadm_id",
+        "ordertime",
+        "order_type",
+        "order_subtype",
+        "transaction_type",
+        "discontinue_of_poe_id",
+        "discontinued_by_poe_id",
+        "order_provider_id",
+        "order_status"
+      ],
+      "dtypes": {
+        "poe_id": "object",
+        "poe_seq": "int64",
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "ordertime": "object",
+        "order_type": "object",
+        "order_subtype": "object",
+        "transaction_type": "object",
+        "discontinue_of_poe_id": "object",
+        "discontinued_by_poe_id": "object",
+        "order_provider_id": "object",
+        "order_status": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\poe_detail.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\poe_detail.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "poe_id",
+        "poe_seq",
+        "subject_id",
+        "field_name",
+        "field_value"
+      ],
+      "dtypes": {
+        "poe_id": "object",
+        "poe_seq": "int64",
+        "subject_id": "int64",
+        "field_name": "object",
+        "field_value": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\prescriptions.zip",
+      "member_path": "prescriptions.csv",
+      "format": "zip_csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "pharmacy_id",
+        "poe_id",
+        "poe_seq",
+        "order_provider_id",
+        "starttime",
+        "stoptime",
+        "drug_type",
+        "drug",
+        "formulary_drug_cd",
+        "gsn",
+        "ndc",
+        "prod_strength",
+        "form_rx",
+        "dose_val_rx",
+        "dose_unit_rx",
+        "form_val_disp",
+        "form_unit_disp",
+        "doses_per_24_hrs",
+        "route"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "pharmacy_id": "int64",
+        "poe_id": "object",
+        "poe_seq": "int64",
+        "order_provider_id": "object",
+        "starttime": "object",
+        "stoptime": "object",
+        "drug_type": "object",
+        "drug": "object",
+        "formulary_drug_cd": "object",
+        "gsn": "float64",
+        "ndc": "int64",
+        "prod_strength": "object",
+        "form_rx": "float64",
+        "dose_val_rx": "object",
+        "dose_unit_rx": "object",
+        "form_val_disp": "object",
+        "form_unit_disp": "object",
+        "doses_per_24_hrs": "float64",
+        "route": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\procedures_icd.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\procedures_icd.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "seq_num",
+        "chartdate",
+        "icd_code",
+        "icd_version"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "seq_num": "int64",
+        "chartdate": "object",
+        "icd_code": "object",
+        "icd_version": "int64"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\provider.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\provider.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "P00019"
+      ],
+      "dtypes": {
+        "P00019": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\services.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\services.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "transfertime",
+        "prev_service",
+        "curr_service"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "transfertime": "object",
+        "prev_service": "object",
+        "curr_service": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "hosp\\transfers.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\hosp\\transfers.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "transfer_id",
+        "eventtype",
+        "careunit",
+        "intime",
+        "outtime"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "float64",
+        "transfer_id": "int64",
+        "eventtype": "object",
+        "careunit": "object",
+        "intime": "object",
+        "outtime": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "icu\\caregiver.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\icu\\caregiver.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "100000"
+      ],
+      "dtypes": {
+        "100000": "int64"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "icu\\chartevents.zip::chartevents.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\icu\\chartevents.zip",
+      "member_path": "chartevents.csv",
+      "format": "zip_csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "stay_id",
+        "caregiver_id",
+        "charttime",
+        "storetime",
+        "itemid",
+        "value",
+        "valuenum",
+        "valueuom",
+        "warning"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "stay_id": "int64",
+        "caregiver_id": "int64",
+        "charttime": "object",
+        "storetime": "object",
+        "itemid": "int64",
+        "value": "object",
+        "valuenum": "float64",
+        "valueuom": "object",
+        "warning": "int64"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "icu\\datetimeevents.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\icu\\datetimeevents.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "stay_id",
+        "caregiver_id",
+        "charttime",
+        "storetime",
+        "itemid",
+        "value",
+        "valueuom",
+        "warning"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "stay_id": "int64",
+        "caregiver_id": "int64",
+        "charttime": "object",
+        "storetime": "object",
+        "itemid": "int64",
+        "value": "object",
+        "valueuom": "object",
+        "warning": "int64"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "icu\\d_items.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\icu\\d_items.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "itemid",
+        "label",
+        "abbreviation",
+        "linksto",
+        "category",
+        "unitname",
+        "param_type",
+        "lownormalvalue",
+        "highnormalvalue"
+      ],
+      "dtypes": {
+        "itemid": "int64",
+        "label": "object",
+        "abbreviation": "object",
+        "linksto": "object",
+        "category": "object",
+        "unitname": "object",
+        "param_type": "object",
+        "lownormalvalue": "float64",
+        "highnormalvalue": "float64"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "icu\\icustays.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\icu\\icustays.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "stay_id",
+        "first_careunit",
+        "last_careunit",
+        "intime",
+        "outtime",
+        "los"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "stay_id": "int64",
+        "first_careunit": "object",
+        "last_careunit": "object",
+        "intime": "object",
+        "outtime": "object",
+        "los": "float64"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "icu\\ingredientevents.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\icu\\ingredientevents.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "stay_id",
+        "caregiver_id",
+        "starttime",
+        "endtime",
+        "storetime",
+        "itemid",
+        "amount",
+        "amountuom",
+        "rate",
+        "rateuom",
+        "orderid",
+        "linkorderid",
+        "statusdescription",
+        "originalamount",
+        "originalrate"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "stay_id": "int64",
+        "caregiver_id": "int64",
+        "starttime": "object",
+        "endtime": "object",
+        "storetime": "object",
+        "itemid": "int64",
+        "amount": "float64",
+        "amountuom": "object",
+        "rate": "float64",
+        "rateuom": "object",
+        "orderid": "int64",
+        "linkorderid": "int64",
+        "statusdescription": "object",
+        "originalamount": "int64",
+        "originalrate": "float64"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "icu\\inputevents.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\icu\\inputevents.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "stay_id",
+        "caregiver_id",
+        "starttime",
+        "endtime",
+        "storetime",
+        "itemid",
+        "amount",
+        "amountuom",
+        "rate",
+        "rateuom",
+        "orderid",
+        "linkorderid",
+        "ordercategoryname",
+        "secondaryordercategoryname",
+        "ordercomponenttypedescription",
+        "ordercategorydescription",
+        "patientweight",
+        "totalamount",
+        "totalamountuom",
+        "isopenbag",
+        "continueinnextdept",
+        "statusdescription",
+        "originalamount",
+        "originalrate"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "stay_id": "int64",
+        "caregiver_id": "int64",
+        "starttime": "object",
+        "endtime": "object",
+        "storetime": "object",
+        "itemid": "int64",
+        "amount": "float64",
+        "amountuom": "object",
+        "rate": "float64",
+        "rateuom": "object",
+        "orderid": "int64",
+        "linkorderid": "int64",
+        "ordercategoryname": "object",
+        "secondaryordercategoryname": "object",
+        "ordercomponenttypedescription": "object",
+        "ordercategorydescription": "object",
+        "patientweight": "float64",
+        "totalamount": "float64",
+        "totalamountuom": "object",
+        "isopenbag": "int64",
+        "continueinnextdept": "int64",
+        "statusdescription": "object",
+        "originalamount": "float64",
+        "originalrate": "float64"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "icu\\outputevents.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\icu\\outputevents.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "stay_id",
+        "caregiver_id",
+        "charttime",
+        "storetime",
+        "itemid",
+        "value",
+        "valueuom"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "stay_id": "int64",
+        "caregiver_id": "int64",
+        "charttime": "object",
+        "storetime": "object",
+        "itemid": "int64",
+        "value": "int64",
+        "valueuom": "object"
+      },
+      "approx_rows": null
+    },
+    {
+      "table_id": "icu\\procedureevents.csv",
+      "source_path": "D:\\Agentic Medical - mimiciv\\mimiciv_data\\icu\\procedureevents.csv",
+      "member_path": null,
+      "format": "csv",
+      "columns": [
+        "subject_id",
+        "hadm_id",
+        "stay_id",
+        "caregiver_id",
+        "starttime",
+        "endtime",
+        "storetime",
+        "itemid",
+        "value",
+        "valueuom",
+        "location",
+        "locationcategory",
+        "orderid",
+        "linkorderid",
+        "ordercategoryname",
+        "ordercategorydescription",
+        "patientweight",
+        "isopenbag",
+        "continueinnextdept",
+        "statusdescription",
+        "originalamount",
+        "originalrate"
+      ],
+      "dtypes": {
+        "subject_id": "int64",
+        "hadm_id": "int64",
+        "stay_id": "int64",
+        "caregiver_id": "float64",
+        "starttime": "object",
+        "endtime": "object",
+        "storetime": "object",
+        "itemid": "int64",
+        "value": "float64",
+        "valueuom": "object",
+        "location": "object",
+        "locationcategory": "object",
+        "orderid": "int64",
+        "linkorderid": "int64",
+        "ordercategoryname": "object",
+        "ordercategorydescription": "object",
+        "patientweight": "float64",
+        "isopenbag": "int64",
+        "continueinnextdept": "int64",
+        "statusdescription": "object",
+        "originalamount": "int64",
+        "originalrate": "int64"
+      },
+      "approx_rows": null
+    }
+  ],
+  "edges": [
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\diagnoses_icd.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\drgcodes.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\emar.zip::emar.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\hcpcsevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\labevents.zip::labevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\microbiologyevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\omr.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\patients.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\poe.zip::poe.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\poe_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\procedures_icd.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\services.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\admissions.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "hosp\\drgcodes.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "hosp\\emar.zip::emar.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "hosp\\hcpcsevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "hosp\\labevents.zip::labevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "hosp\\microbiologyevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "hosp\\omr.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "hosp\\patients.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "hosp\\poe.zip::poe.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "hosp\\poe_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "hosp\\procedures_icd.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "hosp\\services.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\diagnoses_icd.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "hosp\\emar.zip::emar.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "hosp\\hcpcsevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "hosp\\labevents.zip::labevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "hosp\\microbiologyevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "hosp\\omr.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "hosp\\patients.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "hosp\\poe.zip::poe.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "hosp\\poe_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "hosp\\procedures_icd.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "hosp\\services.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\drgcodes.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "hosp\\hcpcsevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "hosp\\labevents.zip::labevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "hosp\\microbiologyevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "hosp\\omr.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "hosp\\patients.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "hosp\\poe.zip::poe.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "hosp\\poe_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "hosp\\procedures_icd.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "hosp\\services.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar.zip::emar.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "hosp\\hcpcsevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "hosp\\labevents.zip::labevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "hosp\\microbiologyevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "hosp\\omr.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "hosp\\patients.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "hosp\\poe.zip::poe.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "hosp\\poe_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "hosp\\procedures_icd.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "hosp\\services.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\emar_detail.zip::emar_detail.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "hosp\\labevents.zip::labevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "hosp\\microbiologyevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "hosp\\omr.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "hosp\\patients.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "hosp\\poe.zip::poe.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "hosp\\poe_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "hosp\\procedures_icd.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "hosp\\services.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\hcpcsevents.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "hosp\\microbiologyevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "hosp\\omr.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "hosp\\patients.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "hosp\\poe.zip::poe.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "hosp\\poe_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "hosp\\procedures_icd.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "hosp\\services.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\labevents.zip::labevents.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "hosp\\omr.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "hosp\\patients.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "hosp\\poe.zip::poe.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "hosp\\poe_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "hosp\\procedures_icd.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "hosp\\services.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\microbiologyevents.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\omr.csv",
+      "right_table_id": "hosp\\patients.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\omr.csv",
+      "right_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\omr.csv",
+      "right_table_id": "hosp\\poe.zip::poe.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\omr.csv",
+      "right_table_id": "hosp\\poe_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\omr.csv",
+      "right_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\omr.csv",
+      "right_table_id": "hosp\\procedures_icd.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\omr.csv",
+      "right_table_id": "hosp\\services.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\omr.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\omr.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\omr.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\omr.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\omr.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\omr.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\omr.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\omr.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\patients.csv",
+      "right_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\patients.csv",
+      "right_table_id": "hosp\\poe.zip::poe.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\patients.csv",
+      "right_table_id": "hosp\\poe_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\patients.csv",
+      "right_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\patients.csv",
+      "right_table_id": "hosp\\procedures_icd.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\patients.csv",
+      "right_table_id": "hosp\\services.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\patients.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\patients.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\patients.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\patients.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\patients.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\patients.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\patients.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\patients.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "right_table_id": "hosp\\poe.zip::poe.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "right_table_id": "hosp\\poe_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "right_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "right_table_id": "hosp\\procedures_icd.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "right_table_id": "hosp\\services.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\pharmacy.zip::pharmacy.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe.zip::poe.csv",
+      "right_table_id": "hosp\\poe_detail.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe.zip::poe.csv",
+      "right_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe.zip::poe.csv",
+      "right_table_id": "hosp\\procedures_icd.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe.zip::poe.csv",
+      "right_table_id": "hosp\\services.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe.zip::poe.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe.zip::poe.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe.zip::poe.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe.zip::poe.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe.zip::poe.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe.zip::poe.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe.zip::poe.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe.zip::poe.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe_detail.csv",
+      "right_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe_detail.csv",
+      "right_table_id": "hosp\\procedures_icd.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe_detail.csv",
+      "right_table_id": "hosp\\services.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe_detail.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe_detail.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe_detail.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe_detail.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe_detail.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe_detail.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe_detail.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\poe_detail.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "right_table_id": "hosp\\procedures_icd.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "right_table_id": "hosp\\services.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\prescriptions.zip::prescriptions.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\procedures_icd.csv",
+      "right_table_id": "hosp\\services.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\procedures_icd.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\procedures_icd.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\procedures_icd.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\procedures_icd.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\procedures_icd.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\procedures_icd.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\procedures_icd.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\procedures_icd.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\services.csv",
+      "right_table_id": "hosp\\transfers.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\services.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\services.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\services.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\services.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\services.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\services.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\services.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\transfers.csv",
+      "right_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\transfers.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\transfers.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\transfers.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\transfers.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\transfers.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "hosp\\transfers.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "right_table_id": "icu\\datetimeevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\chartevents.zip::chartevents.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\datetimeevents.csv",
+      "right_table_id": "icu\\icustays.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\datetimeevents.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\datetimeevents.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\datetimeevents.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\datetimeevents.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\icustays.csv",
+      "right_table_id": "icu\\ingredientevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\icustays.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\icustays.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\icustays.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\ingredientevents.csv",
+      "right_table_id": "icu\\inputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\ingredientevents.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\ingredientevents.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\inputevents.csv",
+      "right_table_id": "icu\\outputevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\inputevents.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    },
+    {
+      "left_table_id": "icu\\outputevents.csv",
+      "right_table_id": "icu\\procedureevents.csv",
+      "shared_keys": [
+        "subject_id",
+        "hadm_id",
+        "stay_id"
+      ]
+    }
+  ]
+}

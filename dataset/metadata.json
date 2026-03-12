@@ -1,0 +1,340 @@
+{
+  "total_cases": 2796,
+  "unique_admissions": 2000,
+  "diagnosis_distribution": {
+    "Acute kidney failure, unspecified": 26,
+    "Urinary tract infection, site not specified": 23,
+    "Coronary atherosclerosis of native coronary artery": 22,
+    "Sepsis, unspecified organism": 18,
+    "Encounter for antineoplastic chemotherapy": 18,
+    "Non-ST elevation (NSTEMI) myocardial infarction": 16,
+    "Subendocardial infarction, initial episode of care": 15,
+    "Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease": 14,
+    "Unspecified septicemia": 12,
+    "Acute on chronic systolic heart failure": 11,
+    "Acute pancreatitis": 11,
+    "Aortic valve disorders": 10,
+    "Syncope and collapse": 10,
+    "Pneumonia, organism unspecified": 9,
+    "Other postoperative infection": 8,
+    "Atherosclerotic heart disease of native coronary artery with unstable angina pectoris": 7,
+    "Hypertensive heart disease with heart failure": 7,
+    "Other chest pain": 7,
+    "Nonrheumatic aortic (valve) stenosis": 7,
+    "Cellulitis and abscess of leg, except foot": 6,
+    "Other pulmonary embolism without acute cor pulmonale": 6,
+    "Chronic obstructive pulmonary disease with (acute) exacerbation": 6,
+    "Acute on chronic systolic (congestive) heart failure": 6,
+    "Osteoarthrosis, localized, not specified whether primary or secondary, lower leg": 6,
+    "Chest pain, unspecified": 6,
+    "Hematemesis": 5,
+    "Orthostatic hypotension": 5,
+    "Pneumonitis due to inhalation of food or vomitus": 5,
+    "Infection and inflammatory reaction due to internal right knee prosthesis, initial encounter": 5,
+    "Infection and inflammatory reaction due to internal joint prosthesis": 5,
+    "Intestinal infection due to other organism, not elsewhere classified": 5,
+    "Acute on chronic diastolic heart failure": 5,
+    "Malignant neoplasm of head of pancreas": 5,
+    "Atrial fibrillation": 5,
+    "Calculus of bile duct without mention of cholecystitis, with obstruction": 5,
+    "Cerebral artery occlusion, unspecified with cerebral infarction": 5,
+    "Diverticulitis of colon (without mention of hemorrhage)": 5,
+    "Pneumonia, unspecified organism": 5,
+    "Dehydration": 5,
+    "Cyst and pseudocyst of pancreas": 5,
+    "Abscess of anal and rectal regions": 5,
+    "Fever, unspecified": 5,
+    "Unilateral primary osteoarthritis, left knee": 4,
+    "Post-term pregnancy": 4,
+    "Osteoarthrosis, localized, not specified whether primary or secondary, pelvic region and thigh": 4,
+    "Alcoholic hepatic failure without coma": 4,
+    "Spinal stenosis, lumbar region with neurogenic claudication": 4,
+    "Calculus of bile duct without mention of cholecystitis, without mention of obstruction": 4,
+    "Acute respiratory failure": 4,
+    "Unspecified intestinal obstruction": 4,
+    "Toxic encephalopathy": 4,
+    "Calculus of gallbladder with acute cholecystitis, without mention of obstruction": 4,
+    "Other specified cardiac dysrhythmias": 4,
+    "Bacterial pneumonia, unspecified": 4,
+    "Atherosclerotic heart disease of native coronary artery with other forms of angina pectoris": 4,
+    "Type 2 diabetes mellitus with hyperglycemia": 4,
+    "Bacteremia": 4,
+    "Type 2 diabetes mellitus with other specified complication": 4,
+    "Other pulmonary embolism and infarction": 4,
+    "Unilateral primary osteoarthritis, right knee": 4,
+    "Obstructive chronic bronchitis with (acute) exacerbation": 4,
+    "Acute respiratory failure with hypoxia": 4,
+    "Acute venous embolism and thrombosis of deep vessels of proximal lower extremity": 4,
+    "Alcohol withdrawal": 4,
+    "Cerebral aneurysm, nonruptured": 3,
+    "Type 2 diabetes mellitus with foot ulcer": 3,
+    "Unspecified transient cerebral ischemia": 3,
+    "Atherosclerosis of native arteries of the extremities with ulceration": 3,
+    "Intestinal infection due to Clostridium difficile": 3,
+    "Paroxysmal atrial fibrillation": 3,
+    "Diabetes with neurological manifestations, type II or unspecified type, not stated as uncontrolled": 3,
+    "Intracerebral hemorrhage": 3,
+    "Abscess of liver": 3,
+    "Intestinal or peritoneal adhesions with obstruction (postoperative) (postinfection)": 3,
+    "Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris": 3,
+    "Abdominal pain, epigastric": 3,
+    "Liver cell carcinoma": 3,
+    "Immune thrombocytopenic purpura": 3,
+    "Occlusion and stenosis of carotid artery with cerebral infarction": 3,
+    "Diabetes with neurological manifestations, type I [juvenile type], not stated as uncontrolled": 3,
+    "Cellulitis of right lower limb": 3,
+    "Thrombosis due to vascular prosthetic devices, implants and grafts, initial encounter": 3,
+    "COVID-19": 3,
+    "Acute pericarditis, unspecified": 3,
+    "Disruption of external operation (surgical) wound": 3,
+    "Secondary malignant neoplasm of lung": 3,
+    "Takotsubo syndrome": 3,
+    "Subdural hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness": 3,
+    "Abdominal aortic aneurysm, without rupture": 3,
+    "Melena": 3,
+    "Pleural effusion, not elsewhere classified": 3,
+    "Atherosclerotic heart disease of native coronary artery without angina pectoris": 3,
+    "Malignant neoplasm of liver, secondary": 3,
+    "Maternal care for low transverse scar from previous cesarean delivery": 3,
+    "Secondary malignant neoplasm of brain": 3,
+    "Benign neoplasm of cerebral meninges": 3,
+    "Other encephalopathy": 3,
+    "Fracture of unspecified part of neck of right femur, initial encounter for closed fracture": 3,
+    "Osteoarthrosis, unspecified whether generalized or localized, lower leg": 3,
+    "Supraventricular tachycardia": 3,
+    "Septicemia due to escherichia coli [E. coli]": 3,
+    "Acute venous embolism and thrombosis of deep vessels of distal lower extremity": 3,
+    "Acute pancreatitis with uninfected necrosis, unspecified": 3,
+    "Displacement of lumbar intervertebral disc without myelopathy": 3,
+    "Alcoholic cirrhosis of liver with ascites": 3,
+    "Infection following a procedure, initial encounter": 3,
+    "Cirrhosis of liver without mention of alcohol": 3,
+    "Acute and chronic respiratory failure with hypoxia": 3,
+    "Acute on chronic combined systolic and diastolic heart failure": 2,
+    "Infection and inflammatory reaction due to indwelling urinary catheter": 2,
+    "Pathologic fracture of vertebrae": 2,
+    "Hypertensive emergency": 2,
+    "Traumatic subarachnoid hemorrhage without loss of consciousness, initial encounter": 2,
+    "Obstruction of bile duct": 2,
+    "Postprocedural fever": 2,
+    "Partial intestinal obstruction, unspecified as to cause": 2,
+    "Bloodstream infection due to central venous catheter, initial encounter": 2,
+    "Abnormality in fetal heart rate or rhythm, delivered, with or without mention of antepartum condition": 2,
+    "Paroxysmal ventricular tachycardia": 2,
+    "Chronic or unspecified gastric ulcer with hemorrhage, without mention of obstruction": 2,
+    "Unspecified gastritis and gastroduodenitis, without mention of hemorrhage": 2,
+    "Rectal abscess": 2,
+    "Acute myeloid leukemia, without mention of having achieved remission": 2,
+    "Traumatic pneumothorax without mention of open wound into thorax": 2,
+    "Maternal care for other known or suspected poor fetal growth, third trimester, not applicable or unspecified": 2,
+    "Malignant neoplasm of thyroid gland": 2,
+    "Acute myeloblastic leukemia, not having achieved remission": 2,
+    "Secondary malignant neoplasm of brain and spinal cord": 2,
+    "Dizziness and giddiness": 2,
+    "Diabetes with other specified manifestations, type II or unspecified type, uncontrolled": 2,
+    "Acute upper respiratory infections of unspecified site": 2,
+    "Hypotension, unspecified": 2,
+    "Other esophagitis": 2,
+    "Unspecified abdominal pain": 2,
+    "Nontraumatic acute subdural hemorrhage": 2,
+    "Mechanical complication of automatic implantable cardiac defibrillator": 2,
+    "Acute pulmonary manifestations due to radiation": 2,
+    "Acute posthemorrhagic anemia": 2,
+    "Influenza with other respiratory manifestations": 2,
+    "Abdominal aneurysm without mention of rupture": 2,
+    "Osteoarthritis of knee, unspecified": 2,
+    "Sepsis due to Methicillin resistant Staphylococcus aureus": 2,
+    "Unspecified atrial fibrillation": 2,
+    "Pyothorax without fistula": 2,
+    "Chronic lymphoid leukemia, without mention of having achieved remission": 2,
+    "Pneumonitis due to inhalation of food and vomit": 2,
+    "Secondary malignant neoplasm of other specified sites": 2,
+    "Anemia, unspecified": 2,
+    "Sarcoidosis": 2,
+    "Malignant neoplasm of cardia": 2,
+    "Postprocedural hematoma of skin and subcutaneous tissue following other procedure": 2,
+    "Nausea with vomiting": 2,
+    "Subarachnoid hemorrhage following injury without mention of open intracranial wound, with brief [less than one hour] loss of consciousness": 2,
+    "Metabolic encephalopathy": 2,
+    "Hydronephrosis with renal and ureteral calculous obstruction": 2,
+    "Spinal stenosis, lumbar region, with neurogenic claudication": 2,
+    "Hemangioma of intracranial structures": 2,
+    "Malignant neoplasm of rectum": 2,
+    "Other streptococcal sepsis": 2,
+    "Intramural leiomyoma of uterus": 2,
+    "Cellulitis of left lower limb": 2,
+    "Chronic or unspecified duodenal ulcer with hemorrhage, without mention of obstruction": 2,
+    "Portal hypertension": 2,
+    "Eosinophilia": 2,
+    "Other mechanical complication of other internal orthopedic device, implant, and graft": 2,
+    "Palpitations": 2,
+    "Subarachnoid hemorrhage following injury without mention of open intracranial wound, with no loss of consciousness": 2,
+    "Encephalopathy, unspecified": 2,
+    "Hypertensive urgency": 2,
+    "Hemorrhage complicating a procedure": 2,
+    "Calculus of ureter": 2,
+    "Closed fracture of second cervical vertebra": 2,
+    "Chronic systolic heart failure": 2,
+    "Other closed transcervical fracture of neck of femur": 2,
+    "Other generalized epilepsy and epileptic syndromes, not intractable, without status epilepticus": 2,
+    "Disease of pericardium, unspecified": 2,
+    "Other and unspecified mycoses": 2,
+    "Congestive heart failure, unspecified": 2,
+    "Unspecified pre-existing hypertension complicating childbirth": 2,
+    "Infection following other infusion, injection, transfusion, or vaccination": 2,
+    "Premature rupture of membranes, delivered, with or without mention of antepartum condition": 2,
+    "Intestinal adhesions [bands] with obstruction (postinfection)": 2,
+    "Regional enteritis of small intestine with large intestine": 2,
+    "Other and unspecified noninfectious gastroenteritis and colitis": 2,
+    "Other specified mononeuropathies": 2,
+    "Methicillin resistant Staphylococcus aureus septicemia": 2,
+    "Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled": 2,
+    "Other viral infections of unspecified site": 2,
+    "Malignant neoplasm of ascending colon": 2,
+    "Traumatic pneumothorax, initial encounter": 2,
+    "Malignant neoplasm of ampulla of Vater": 2,
+    "Nontraumatic hematoma of soft tissue": 2,
+    "Acute on chronic diastolic (congestive) heart failure": 2,
+    "Infection (chronic) of amputation stump": 2,
+    "Gastroparesis": 2,
+    "Blood in stool": 2,
+    "Epilepsy, unspecified, without mention of intractable epilepsy": 2,
+    "Other epilepsy, not intractable, without status epilepticus": 2,
+    "Dislocation of internal right hip prosthesis, initial encounter": 2,
+    "Hypertrophy (benign) of prostate with urinary obstruction and other lower urinary tract symptoms (LUTS)": 2
+  },
+  "average_case_length": 162.36552217453504,
+  "selected_tables": {
+    "admissions": "hosp\\admissions.csv",
+    "patients": "hosp\\patients.csv",
+    "diagnoses": "hosp\\diagnoses_icd.csv",
+    "notes": "hosp\\drgcodes.csv",
+    "labs": "hosp\\labevents.zip::labevents.csv",
+    "vitals": "icu\\chartevents.zip::chartevents.csv",
+    "item_dictionary": "hosp\\d_labitems.csv"
+  },
+  "table_rank_debug": {
+    "admissions_top": [
+      [
+        "hosp\\admissions.csv",
+        4.0
+      ],
+      [
+        "hosp\\diagnoses_icd.csv",
+        2.0
+      ],
+      [
+        "hosp\\drgcodes.csv",
+        2.0
+      ],
+      [
+        "hosp\\emar.zip::emar.csv",
+        2.0
+      ],
+      [
+        "hosp\\hcpcsevents.csv",
+        2.0
+      ],
+      [
+        "hosp\\labevents.zip::labevents.csv",
+        2.0
+      ],
+      [
+        "hosp\\microbiologyevents.csv",
+        2.0
+      ],
+      [
+        "hosp\\pharmacy.zip::pharmacy.csv",
+        2.0
+      ],
+      [
+        "hosp\\poe.zip::poe.csv",
+        2.0
+      ],
+      [
+        "hosp\\prescriptions.zip::prescriptions.csv",
+        2.0
+      ]
+    ],
+    "patients_top": [
+      [
+        "hosp\\patients.csv",
+        3.0
+      ]
+    ],
+    "diagnoses_top": [
+      [
+        "hosp\\diagnoses_icd.csv",
+        3.0
+      ],
+      [
+        "hosp\\procedures_icd.csv",
+        3.0
+      ],
+      [
+        "hosp\\d_icd_diagnoses.csv",
+        1.0
+      ],
+      [
+        "hosp\\d_icd_procedures.csv",
+        1.0
+      ],
+      [
+        "hosp\\hcpcsevents.csv",
+        1.0
+      ],
+      [
+        "hosp\\omr.csv",
+        1.0
+      ]
+    ],
+    "labs_top": [
+      [
+        "hosp\\labevents.zip::labevents.csv",
+        3.5
+      ],
+      [
+        "icu\\chartevents.zip::chartevents.csv",
+        2.5
+      ],
+      [
+        "icu\\datetimeevents.csv",
+        2.5
+      ],
+      [
+        "icu\\outputevents.csv",
+        2.5
+      ],
+      [
+        "icu\\procedureevents.csv",
+        1.5
+      ],
+      [
+        "hosp\\emar.zip::emar.csv",
+        1.0
+      ],
+      [
+        "hosp\\microbiologyevents.csv",
+        1.0
+      ]
+    ],
+    "vitals_top": [
+      [
+        "icu\\chartevents.zip::chartevents.csv",
+        2.0
+      ],
+      [
+        "icu\\datetimeevents.csv",
+        2.0
+      ],
+      [
+        "icu\\outputevents.csv",
+        2.0
+      ],
+      [
+        "icu\\procedureevents.csv",
+        2.0
+      ]
+    ]
+  }
+}

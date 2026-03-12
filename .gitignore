@@ -1,0 +1,39 @@
+# Ignore raw MIMIC-IV data
+mimiciv_data/
+mimiciv_data/*
+mimiciv_data/**/*.csv
+mimiciv_data/**/*.csv.gz
+mimiciv_data/**/*.zip
+
+# Ignore any other local data dumps / outputs if muốn giấu
+# (giữ lại dataset/ nếu bạn muốn share dataset; bỏ comment dòng dưới nếu muốn ẩn)
+# dataset/
+# dataset/*
+
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+*.venv/
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
