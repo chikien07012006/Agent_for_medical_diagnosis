@@ -1,0 +1,1402 @@
+[
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 68.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.8 mg/dL; Hemoglobin: 7.4 g/dL; White Blood Cells: 10.1 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Occlusion and stenosis of left carotid artery"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 68.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.8 mg/dL; Hemoglobin: 7.4 g/dL; White Blood Cells: 10.1 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Occlusion and stenosis of left carotid artery"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 68.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 14 K/uL; Creatinine: 1.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other pulmonary embolism without acute cor pulmonale"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 68.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 14 K/uL; Creatinine: 1.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other pulmonary embolism without acute cor pulmonale"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 89.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.7 g/dL; Platelet Count: 146 K/uL; White Blood Cells: 10.2 K/uL; Creatinine: 2.6 mg/dL; WBC: 63 #/hpf\n\nClinical Notes:\nnone\n",
+    "output": "Other specified fracture of right acetabulum, initial encounter for closed fracture"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 89.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.7 g/dL; Platelet Count: 146 K/uL; White Blood Cells: 10.2 K/uL; Creatinine: 2.6 mg/dL; WBC: 63 #/hpf\n\nClinical Notes:\nnone\n",
+    "output": "Other specified fracture of right acetabulum, initial encounter for closed fracture"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 86.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.4 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other specified cardiac dysrhythmias"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 86.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.4 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other specified cardiac dysrhythmias"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 56.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.5 g/dL; White Blood Cells: 11.9 K/uL; C-Reactive Protein: 87.8 mg/L; Creatinine: 2.7 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Unspecified septicemia"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 56.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.5 g/dL; White Blood Cells: 11.9 K/uL; C-Reactive Protein: 87.8 mg/L; Creatinine: 2.7 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Unspecified septicemia"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 81.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.6 g/dL; Creatinine: 2.1 mg/dL; Platelet Count: 144 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Acute pulmonary manifestations due to radiation"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 81.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.6 g/dL; Creatinine: 2.1 mg/dL; Platelet Count: 144 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Acute pulmonary manifestations due to radiation"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 29.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11 g/dL; C-Reactive Protein: 13.9 mg/L; Platelet Count: 458 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Bacteremia"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 29.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11 g/dL; C-Reactive Protein: 13.9 mg/L; Platelet Count: 458 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Bacteremia"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 58.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 15.5 K/uL; Hemoglobin: 12.6 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Osteoarthrosis, unspecified whether generalized or localized, pelvic region and thigh"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 58.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 15.5 K/uL; Hemoglobin: 12.6 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Osteoarthrosis, unspecified whether generalized or localized, pelvic region and thigh"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 68.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.3 g/dL; Creatinine: 1.3 mg/dL; C-Reactive Protein: 284.6 mg/L\n\nClinical Notes:\nnone\n",
+    "output": "Osteoarthrosis, unspecified whether generalized or localized, lower leg"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 68.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.3 g/dL; Creatinine: 1.3 mg/dL; C-Reactive Protein: 284.6 mg/L\n\nClinical Notes:\nnone\n",
+    "output": "Osteoarthrosis, unspecified whether generalized or localized, lower leg"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 58.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 5.2 mg/dL; Hemoglobin: 7.3 g/dL; Platelet Count: 560 K/uL; White Blood Cells: 22 K/uL; C-Reactive Protein: 145.7 mg/L; Albumin/Creatinine, Urine: 3043.1 mg/g; Protein/Creatinine Ratio: 5.8 mg/mg\n\nClinical Notes:\nnone\n",
+    "output": "Other streptococcal sepsis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 58.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 5.2 mg/dL; Hemoglobin: 7.3 g/dL; Platelet Count: 560 K/uL; White Blood Cells: 22 K/uL; C-Reactive Protein: 145.7 mg/L; Albumin/Creatinine, Urine: 3043.1 mg/g; Protein/Creatinine Ratio: 5.8 mg/mg\n\nClinical Notes:\nnone\n",
+    "output": "Other streptococcal sepsis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 71.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.9 g/dL; White Blood Cells: 14.8 K/uL; WBC: 39 #/hpf; Platelet Count: 470 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Subarachnoid hemorrhage"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 71.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.9 g/dL; White Blood Cells: 14.8 K/uL; WBC: 39 #/hpf; Platelet Count: 470 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Subarachnoid hemorrhage"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 41.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 11.7 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Maternal care for low transverse scar from previous cesarean delivery"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 41.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 11.7 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Maternal care for low transverse scar from previous cesarean delivery"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 62.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.9 mg/dL; Hemoglobin: 13.1 g/dL; White Blood Cells: 10.8 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Wernicke's encephalopathy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 62.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.9 mg/dL; Hemoglobin: 13.1 g/dL; White Blood Cells: 10.8 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Wernicke's encephalopathy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 61.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.9 g/dL; White Blood Cells: 11.3 K/uL; Creatinine: 1.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Non-ST elevation (NSTEMI) myocardial infarction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 61.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.9 g/dL; White Blood Cells: 11.3 K/uL; Creatinine: 1.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Non-ST elevation (NSTEMI) myocardial infarction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 57.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.8 g/dL; Platelet Count: 50 K/uL; White Blood Cells: 1.9 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Encounter for antineoplastic chemotherapy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 57.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.8 g/dL; Platelet Count: 50 K/uL; White Blood Cells: 1.9 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Encounter for antineoplastic chemotherapy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 51.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.8 g/dL; Platelet Count: 143 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Other postoperative infection"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 51.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.8 g/dL; Platelet Count: 143 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Other postoperative infection"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 91.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 100 K/uL; White Blood Cells: 12.1 K/uL; C-Reactive Protein: 85.9 mg/L; Creatinine: 1.2 mg/dL; % Hemoglobin A1c: 8.7 %; Hemoglobin: 10.8 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Sepsis, unspecified organism"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 91.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 100 K/uL; White Blood Cells: 12.1 K/uL; C-Reactive Protein: 85.9 mg/L; Creatinine: 1.2 mg/dL; % Hemoglobin A1c: 8.7 %; Hemoglobin: 10.8 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Sepsis, unspecified organism"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 32.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.6 g/dL; White Blood Cells: 12 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Other mechanical complication of insulin pump, initial encounter"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 32.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.6 g/dL; White Blood Cells: 12 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Other mechanical complication of insulin pump, initial encounter"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 53.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13.6 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Cellulitis of right lower limb"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 53.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13.6 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Cellulitis of right lower limb"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 89.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.1 g/dL; Creatinine: 2.6 mg/dL; Platelet Count: 144 K/uL; White Blood Cells: 17.8 K/uL; WBC: 9 #/hpf\n\nClinical Notes:\nnone\n",
+    "output": "Displaced comminuted fracture of shaft of right femur, initial encounter for closed fracture"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 89.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.1 g/dL; Creatinine: 2.6 mg/dL; Platelet Count: 144 K/uL; White Blood Cells: 17.8 K/uL; WBC: 9 #/hpf\n\nClinical Notes:\nnone\n",
+    "output": "Displaced comminuted fracture of shaft of right femur, initial encounter for closed fracture"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 71.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.2 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Dizziness and giddiness"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 71.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.2 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Dizziness and giddiness"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 91.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.3 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Sepsis, unspecified organism"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 91.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.3 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Sepsis, unspecified organism"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 58.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10 g/dL; Platelet Count: 448 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Acute and chronic respiratory failure with hypoxia"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 58.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10 g/dL; Platelet Count: 448 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Acute and chronic respiratory failure with hypoxia"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 61.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 16.1 g/dL; White Blood Cells: 13 K/uL; Platelet Count: 138 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Acute pancreatitis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 61.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 16.1 g/dL; White Blood Cells: 13 K/uL; Platelet Count: 138 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Acute pancreatitis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 81.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 11.3 K/uL; Creatinine: 1.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Acute kidney failure, unspecified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 81.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 11.3 K/uL; Creatinine: 1.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Acute kidney failure, unspecified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 57.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\n% Hemoglobin A1c: 7.1 %; Platelet Count: 129 K/uL; White Blood Cells: 3.5 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Type 2 diabetes mellitus with diabetic autonomic (poly)neuropathy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 57.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\n% Hemoglobin A1c: 7.1 %; Platelet Count: 129 K/uL; White Blood Cells: 3.5 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Type 2 diabetes mellitus with diabetic autonomic (poly)neuropathy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 38.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nProtein/Creatinine Ratio: 0.3 mg/mg; Hemoglobin: 7.7 g/dL; White Blood Cells: 15.6 K/uL; Creatinine: 1.2 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Pre-existing hypertension with pre-eclampsia, complicating childbirth"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 38.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nProtein/Creatinine Ratio: 0.3 mg/mg; Hemoglobin: 7.7 g/dL; White Blood Cells: 15.6 K/uL; Creatinine: 1.2 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Pre-existing hypertension with pre-eclampsia, complicating childbirth"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 91.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.9 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Nontraumatic hematoma of soft tissue"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 91.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.9 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Nontraumatic hematoma of soft tissue"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 63.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.7 g/dL; White Blood Cells: 14.6 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Atherosclerosis of coronary artery bypass graft(s) without angina pectoris"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 63.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.7 g/dL; White Blood Cells: 14.6 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Atherosclerosis of coronary artery bypass graft(s) without angina pectoris"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 58.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.8 g/dL; White Blood Cells: 10.4 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Encounter for antineoplastic chemotherapy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 58.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.8 g/dL; White Blood Cells: 10.4 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Encounter for antineoplastic chemotherapy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 70.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9 g/dL; Creatinine: 1.3 mg/dL; % Hemoglobin A1c: 8.7 %\n\nClinical Notes:\nnone\n",
+    "output": "Subsequent non-ST elevation (NSTEMI) myocardial infarction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 70.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9 g/dL; Creatinine: 1.3 mg/dL; % Hemoglobin A1c: 8.7 %\n\nClinical Notes:\nnone\n",
+    "output": "Subsequent non-ST elevation (NSTEMI) myocardial infarction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 89.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 3.3 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Urinary tract infection, site not specified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 89.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 3.3 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Urinary tract infection, site not specified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 65.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 3.6 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Non-ST elevation (NSTEMI) myocardial infarction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 65.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 3.6 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Non-ST elevation (NSTEMI) myocardial infarction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 91.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 11.7 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Other generalized epilepsy and epileptic syndromes, not intractable, without status epilepticus"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 91.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 11.7 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Other generalized epilepsy and epileptic syndromes, not intractable, without status epilepticus"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 43.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13.3 g/dL; Creatinine: 2 mg/dL; WBC: 52 #/hpf; Platelet Count: 149 K/uL; White Blood Cells: 16 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Injury to other intra-abdominal organs without mention of open wound into cavity, peritoneum"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 43.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13.3 g/dL; Creatinine: 2 mg/dL; WBC: 52 #/hpf; Platelet Count: 149 K/uL; White Blood Cells: 16 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Injury to other intra-abdominal organs without mention of open wound into cavity, peritoneum"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 60.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.5 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Grand mal status"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 60.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.5 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Grand mal status"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 55.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13.8 g/dL; White Blood Cells: 12 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Sprain of neck"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 55.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13.8 g/dL; White Blood Cells: 12 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Sprain of neck"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 33.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13 g/dL; White Blood Cells: 12 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Hemangioma of intracranial structures"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 33.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13 g/dL; White Blood Cells: 12 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Hemangioma of intracranial structures"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 69.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Chest pain, unspecified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 69.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Chest pain, unspecified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 58.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 7.2 g/dL; Platelet Count: 17 K/uL; White Blood Cells: 0.2 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Agranulocytosis secondary to cancer chemotherapy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 58.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 7.2 g/dL; Platelet Count: 17 K/uL; White Blood Cells: 0.2 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Agranulocytosis secondary to cancer chemotherapy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 59.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 9.1 mg/dL; Hemoglobin: 8.9 g/dL; White Blood Cells: 26.4 K/uL; Protein/Creatinine Ratio: 5.2 mg/mg; C-Reactive Protein: 149.1 mg/L; Platelet Count: 413 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Sepsis, unspecified organism"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 59.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 9.1 mg/dL; Hemoglobin: 8.9 g/dL; White Blood Cells: 26.4 K/uL; Protein/Creatinine Ratio: 5.2 mg/mg; C-Reactive Protein: 149.1 mg/L; Platelet Count: 413 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Sepsis, unspecified organism"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 44.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.5 g/dL; Creatinine: 0.4 mg/dL; White Blood Cells: 3.7 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Abscess of liver"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 44.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.5 g/dL; Creatinine: 0.4 mg/dL; White Blood Cells: 3.7 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Abscess of liver"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 69.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 12.3 g/dL; White Blood Cells: 21 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Secondary malignant neoplasm of lung"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 69.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 12.3 g/dL; White Blood Cells: 21 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Secondary malignant neoplasm of lung"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 64.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10 g/dL; Creatinine: 1.2 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Urinary tract infection, site not specified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 64.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10 g/dL; Creatinine: 1.2 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Urinary tract infection, site not specified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 59.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 11.8 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Chronic obstructive pulmonary disease with (acute) lower respiratory infection"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 59.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 11.8 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Chronic obstructive pulmonary disease with (acute) lower respiratory infection"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 42.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.6 g/dL; White Blood Cells: 20.8 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Cellulitis and abscess of leg, except foot"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 42.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.6 g/dL; White Blood Cells: 20.8 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Cellulitis and abscess of leg, except foot"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 82.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.7 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other closed transcervical fracture of neck of femur"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 82.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.7 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other closed transcervical fracture of neck of femur"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 70.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.4 g/dL; White Blood Cells: 2.7 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Pathologic fracture of vertebrae"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 70.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.4 g/dL; White Blood Cells: 2.7 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Pathologic fracture of vertebrae"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 81.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.9 g/dL; Creatinine: 1.5 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Acute on chronic systolic (congestive) heart failure"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 81.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.9 g/dL; Creatinine: 1.5 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Acute on chronic systolic (congestive) heart failure"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 82.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.5 mg/dL; Hemoglobin: 11.7 g/dL; Platelet Count: 135 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Subendocardial infarction, initial episode of care"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 82.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.5 mg/dL; Hemoglobin: 11.7 g/dL; Platelet Count: 135 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Subendocardial infarction, initial episode of care"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 80.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.8 g/dL; Platelet Count: 142 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Acute on chronic combined systolic and diastolic heart failure"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 80.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.8 g/dL; Platelet Count: 142 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Acute on chronic combined systolic and diastolic heart failure"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 55.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.5 mg/dL; Hemoglobin: 9.5 g/dL; WBC: 35 #/hpf\n\nClinical Notes:\nnone\n",
+    "output": "Type 1 diabetes mellitus with other specified complication"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 55.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.5 mg/dL; Hemoglobin: 9.5 g/dL; WBC: 35 #/hpf\n\nClinical Notes:\nnone\n",
+    "output": "Type 1 diabetes mellitus with other specified complication"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 86.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.3 mg/dL; Hemoglobin: 9.7 g/dL; White Blood Cells: 12.3 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Cellulitis and abscess of leg, except foot"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 86.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.3 mg/dL; Hemoglobin: 9.7 g/dL; White Blood Cells: 12.3 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Cellulitis and abscess of leg, except foot"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 60.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.9 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Infection following a procedure, organ and space surgical site, initial encounter"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 60.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.9 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Infection following a procedure, organ and space surgical site, initial encounter"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 46.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.9 g/dL; Platelet Count: 51 K/uL; Creatinine: 3.7 mg/dL; WBC: 13 #/hpf; White Blood Cells: 13.2 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Hemorrhage complicating a procedure"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 46.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.9 g/dL; Platelet Count: 51 K/uL; Creatinine: 3.7 mg/dL; WBC: 13 #/hpf; White Blood Cells: 13.2 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Hemorrhage complicating a procedure"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 51.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.4 g/dL; White Blood Cells: 21 K/uL; Platelet Count: 140 K/uL; WBC: 8 #/hpf; Creatinine: 0.4 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Malignant neoplasm of body of pancreas"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 51.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.4 g/dL; White Blood Cells: 21 K/uL; Platelet Count: 140 K/uL; WBC: 8 #/hpf; Creatinine: 0.4 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Malignant neoplasm of body of pancreas"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 60.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 12.4 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Supraventricular tachycardia"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 60.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 12.4 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Supraventricular tachycardia"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 41.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 12 g/dL; White Blood Cells: 17.4 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Fracture of angle of left mandible, initial encounter for closed fracture"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 41.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 12 g/dL; White Blood Cells: 17.4 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Fracture of angle of left mandible, initial encounter for closed fracture"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 55.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 17.7 g/dL; White Blood Cells: 3.8 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Toxic effect of ingested mushrooms, accidental (unintentional), initial encounter"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 55.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 17.7 g/dL; White Blood Cells: 3.8 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Toxic effect of ingested mushrooms, accidental (unintentional), initial encounter"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 80.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 7.7 g/dL; Platelet Count: 116 K/uL; White Blood Cells: 12.7 K/uL; Creatinine: 1.4 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Nonrheumatic mitral (valve) prolapse"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 80.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 7.7 g/dL; Platelet Count: 116 K/uL; White Blood Cells: 12.7 K/uL; Creatinine: 1.4 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Nonrheumatic mitral (valve) prolapse"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 52.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 71 K/uL; Creatinine: 0.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Portal hypertension"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 52.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 71 K/uL; Creatinine: 0.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Portal hypertension"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 42.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.9 g/dL; White Blood Cells: 15.6 K/uL; Platelet Count: 146 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Atherosclerotic heart disease of native coronary artery with unstable angina pectoris"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 42.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.9 g/dL; White Blood Cells: 15.6 K/uL; Platelet Count: 146 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Atherosclerotic heart disease of native coronary artery with unstable angina pectoris"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 64.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 14.1 K/uL; Hemoglobin: 8.5 g/dL; Platelet Count: 110 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Other generalized epilepsy and epileptic syndromes, not intractable, without status epilepticus"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 64.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 14.1 K/uL; Hemoglobin: 8.5 g/dL; Platelet Count: 110 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Other generalized epilepsy and epileptic syndromes, not intractable, without status epilepticus"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 60.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.9 g/dL; White Blood Cells: 13.1 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Nontraumatic subarachnoid hemorrhage from right posterior communicating artery"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 60.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.9 g/dL; White Blood Cells: 13.1 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Nontraumatic subarachnoid hemorrhage from right posterior communicating artery"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 69.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.6 g/dL; Platelet Count: 485 K/uL; White Blood Cells: 3.6 K/uL; C-Reactive Protein: 65.2 mg/L; Creatinine: 1.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Fever, unspecified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 69.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.6 g/dL; Platelet Count: 485 K/uL; White Blood Cells: 3.6 K/uL; C-Reactive Protein: 65.2 mg/L; Creatinine: 1.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Fever, unspecified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 93.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 10.1 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Malignant neoplasm of thyroid gland"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 93.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 10.1 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Malignant neoplasm of thyroid gland"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 64.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.2 mg/dL; Hemoglobin: 11.1 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Type 2 diabetes mellitus with diabetic peripheral angiopathy with gangrene"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 64.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.2 mg/dL; Hemoglobin: 11.1 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Type 2 diabetes mellitus with diabetic peripheral angiopathy with gangrene"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 86.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.9 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Fracture of one rib, left side, initial encounter for closed fracture"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 86.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.9 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Fracture of one rib, left side, initial encounter for closed fracture"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 57.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.8 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other amputation stump complication"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 57.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.8 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other amputation stump complication"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 52.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 7.8 g/dL; Platelet Count: 82 K/uL; Creatinine: 1.8 mg/dL; WBC: 24 #/hpf; White Blood Cells: 12 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Hepatic encephalopathy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 52.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 7.8 g/dL; Platelet Count: 82 K/uL; Creatinine: 1.8 mg/dL; WBC: 24 #/hpf; White Blood Cells: 12 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Hepatic encephalopathy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 57.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.2 g/dL; Platelet Count: 540 K/uL; White Blood Cells: 15.4 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Malignant neoplasm of liver, secondary"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 57.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.2 g/dL; Platelet Count: 540 K/uL; White Blood Cells: 15.4 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Malignant neoplasm of liver, secondary"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 36.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.2 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Displaced fracture of posterior wall of left acetabulum, initial encounter for closed fracture"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 36.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.2 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Displaced fracture of posterior wall of left acetabulum, initial encounter for closed fracture"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 72.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.4 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Pneumonitis due to inhalation of food or vomitus"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 72.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.4 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Pneumonitis due to inhalation of food or vomitus"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 91.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.6 g/dL; Platelet Count: 147 K/uL; Creatinine: 1.2 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Subendocardial infarction, initial episode of care"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 91.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.6 g/dL; Platelet Count: 147 K/uL; Creatinine: 1.2 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Subendocardial infarction, initial episode of care"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 19.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.6 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Displacement of lumbar intervertebral disc without myelopathy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 19.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.6 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Displacement of lumbar intervertebral disc without myelopathy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 86.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.9 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Lesion of femoral nerve, right lower limb"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 86.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.9 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Lesion of femoral nerve, right lower limb"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 68.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.2 g/dL; Platelet Count: 47 K/uL; White Blood Cells: 10.4 K/uL; Creatinine: 1.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Postprocedural hematoma of skin and subcutaneous tissue following other procedure"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 68.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.2 g/dL; Platelet Count: 47 K/uL; White Blood Cells: 10.4 K/uL; Creatinine: 1.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Postprocedural hematoma of skin and subcutaneous tissue following other procedure"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 72.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10 g/dL; White Blood Cells: 3.5 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Lymphedema, not elsewhere classified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 72.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10 g/dL; White Blood Cells: 3.5 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Lymphedema, not elsewhere classified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 68.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.8 g/dL; Creatinine: 1.3 mg/dL; WBC: 49 #/hpf\n\nClinical Notes:\nnone\n",
+    "output": "Other acquired deformities of knee"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 68.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.8 g/dL; Creatinine: 1.3 mg/dL; WBC: 49 #/hpf\n\nClinical Notes:\nnone\n",
+    "output": "Other acquired deformities of knee"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 82.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.7 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other forms of acute pericarditis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 82.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.7 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other forms of acute pericarditis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 77.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.5 g/dL; Platelet Count: 125 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Traumatic pneumothorax, initial encounter"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 77.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.5 g/dL; Platelet Count: 125 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Traumatic pneumothorax, initial encounter"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 43.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.8 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other mechanical complication of other internal orthopedic device, implant, and graft"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 43.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.8 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other mechanical complication of other internal orthopedic device, implant, and graft"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 48.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 11.1 K/uL; Creatinine: 2.8 mg/dL; Protein/Creatinine Ratio: 1 mg/mg; Hemoglobin: 10.7 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Sepsis, unspecified organism"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 48.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 11.1 K/uL; Creatinine: 2.8 mg/dL; Protein/Creatinine Ratio: 1 mg/mg; Hemoglobin: 10.7 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Sepsis, unspecified organism"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 77.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.5 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other closed fracture of lower end of femur"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 77.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.5 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other closed fracture of lower end of femur"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 41.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.8 g/dL; WBC: 13 #/hpf; C-Reactive Protein: 69.9 mg/L; White Blood Cells: 10.7 K/uL; Platelet Count: 129 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Crohn's disease of small intestine with fistula"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 41.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.8 g/dL; WBC: 13 #/hpf; C-Reactive Protein: 69.9 mg/L; White Blood Cells: 10.7 K/uL; Platelet Count: 129 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Crohn's disease of small intestine with fistula"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 53.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.4 g/dL; Platelet Count: 124 K/uL; White Blood Cells: 1.9 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Alcohol dependence with withdrawal, unspecified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 53.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.4 g/dL; Platelet Count: 124 K/uL; White Blood Cells: 1.9 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Alcohol dependence with withdrawal, unspecified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 75.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.6 g/dL; Platelet Count: 106 K/uL; C-Reactive Protein: 156.2 mg/L; Creatinine: 2 mg/dL; WBC: 72 #/hpf; White Blood Cells: 3.9 K/uL; Protein/Creatinine Ratio: 1.3 mg/mg\n\nClinical Notes:\nnone\n",
+    "output": "Disruption of external operation (surgical) wound, not elsewhere classified, initial encounter"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 75.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.6 g/dL; Platelet Count: 106 K/uL; C-Reactive Protein: 156.2 mg/L; Creatinine: 2 mg/dL; WBC: 72 #/hpf; White Blood Cells: 3.9 K/uL; Protein/Creatinine Ratio: 1.3 mg/mg\n\nClinical Notes:\nnone\n",
+    "output": "Disruption of external operation (surgical) wound, not elsewhere classified, initial encounter"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 65.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.2 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Spinal stenosis, lumbar region"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 65.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.2 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Spinal stenosis, lumbar region"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 53.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.4 g/dL; White Blood Cells: 12.5 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Intestinal infection due to Clostridium difficile"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 53.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.4 g/dL; White Blood Cells: 12.5 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Intestinal infection due to Clostridium difficile"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 71.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWBC: 13 #/hpf\n\nClinical Notes:\nnone\n",
+    "output": "Hypertensive emergency"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 71.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWBC: 13 #/hpf\n\nClinical Notes:\nnone\n",
+    "output": "Hypertensive emergency"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 79.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.5 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Coronary atherosclerosis of native coronary artery"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 79.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.5 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Coronary atherosclerosis of native coronary artery"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 76.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.8 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Obstructive chronic bronchitis with (acute) exacerbation"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 76.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.8 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Obstructive chronic bronchitis with (acute) exacerbation"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 59.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.3 g/dL; Creatinine: 0.3 mg/dL; Platelet Count: 104 K/uL; White Blood Cells: 13.7 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Chronic or unspecified gastric ulcer with hemorrhage, without mention of obstruction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 59.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.3 g/dL; Creatinine: 0.3 mg/dL; Platelet Count: 104 K/uL; White Blood Cells: 13.7 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Chronic or unspecified gastric ulcer with hemorrhage, without mention of obstruction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 64.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.7 mg/dL; White Blood Cells: 23.1 K/uL; % Hemoglobin A1c: 6.2 %; Hemoglobin: 18.1 g/dL; C-Reactive Protein: 185.1 mg/L; WBC: 22 #/hpf; Platelet Count: 133 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Acute pancreatitis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 64.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.7 mg/dL; White Blood Cells: 23.1 K/uL; % Hemoglobin A1c: 6.2 %; Hemoglobin: 18.1 g/dL; C-Reactive Protein: 185.1 mg/L; WBC: 22 #/hpf; Platelet Count: 133 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Acute pancreatitis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 42.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\n% Hemoglobin A1c: 7.2 %\n\nClinical Notes:\nnone\n",
+    "output": "Acute on chronic diastolic heart failure"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 42.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\n% Hemoglobin A1c: 7.2 %\n\nClinical Notes:\nnone\n",
+    "output": "Acute on chronic diastolic heart failure"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 69.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.1 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Closed fracture of upper end of tibia alone"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 69.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.1 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Closed fracture of upper end of tibia alone"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 66.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 95 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Calculus of bile duct without cholangitis or cholecystitis with obstruction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 66.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 95 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Calculus of bile duct without cholangitis or cholecystitis with obstruction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 76.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 7.8 g/dL; White Blood Cells: 3.8 K/uL; C-Reactive Protein: 75 mg/L\n\nClinical Notes:\nnone\n",
+    "output": "Meningitis, unspecified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 76.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 7.8 g/dL; White Blood Cells: 3.8 K/uL; C-Reactive Protein: 75 mg/L\n\nClinical Notes:\nnone\n",
+    "output": "Meningitis, unspecified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 85.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 23.1 K/uL; Creatinine: 1.7 mg/dL; Hemoglobin: 13.2 g/dL; Platelet Count: 136 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Rash and other nonspecific skin eruption"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 85.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 23.1 K/uL; Creatinine: 1.7 mg/dL; Hemoglobin: 13.2 g/dL; Platelet Count: 136 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Rash and other nonspecific skin eruption"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 47.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13.3 g/dL; White Blood Cells: 17.1 K/uL; Creatinine: 1.5 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Malignant neoplasm of gallbladder"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 47.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13.3 g/dL; White Blood Cells: 17.1 K/uL; Creatinine: 1.5 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Malignant neoplasm of gallbladder"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 74.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine, Whole Blood: 1.8 mg/dL; Hemoglobin: 12.1 g/dL; Creatinine: 1.7 mg/dL; Platelet Count: 147 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Hydronephrosis with renal and ureteral calculous obstruction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 74.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine, Whole Blood: 1.8 mg/dL; Hemoglobin: 12.1 g/dL; Creatinine: 1.7 mg/dL; Platelet Count: 147 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Hydronephrosis with renal and ureteral calculous obstruction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 92.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 14.9 K/uL; WBC: 143 #/hpf\n\nClinical Notes:\nnone\n",
+    "output": "Acute embolism and thrombosis of left femoral vein"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 92.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 14.9 K/uL; WBC: 143 #/hpf\n\nClinical Notes:\nnone\n",
+    "output": "Acute embolism and thrombosis of left femoral vein"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 78.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 6.6 g/dL; Creatinine: 2.2 mg/dL; White Blood Cells: 3.4 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Iron deficiency anemia secondary to blood loss (chronic)"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 78.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 6.6 g/dL; Creatinine: 2.2 mg/dL; White Blood Cells: 3.4 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Iron deficiency anemia secondary to blood loss (chronic)"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 57.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.8 g/dL; Platelet Count: 595 K/uL; White Blood Cells: 12.1 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Nausea with vomiting"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 57.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.8 g/dL; Platelet Count: 595 K/uL; White Blood Cells: 12.1 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Nausea with vomiting"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 82.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.5 g/dL; White Blood Cells: 27.6 K/uL; Creatinine: 2.8 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other secondary pulmonary hypertension"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 82.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.5 g/dL; White Blood Cells: 27.6 K/uL; Creatinine: 2.8 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Other secondary pulmonary hypertension"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 21.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.3 g/dL; White Blood Cells: 23.5 K/uL; Platelet Count: 462 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Other postoperative infection"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 21.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.3 g/dL; White Blood Cells: 23.5 K/uL; Platelet Count: 462 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Other postoperative infection"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 47.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13.4 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Depressive disorder, not elsewhere classified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 47.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13.4 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Depressive disorder, not elsewhere classified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 55.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 15.7 K/uL; Hemoglobin: 11.2 g/dL; Platelet Count: 474 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Intracranial abscess"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 55.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 15.7 K/uL; Hemoglobin: 11.2 g/dL; Platelet Count: 474 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Intracranial abscess"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 70.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 11 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Chronic obstructive pulmonary disease with (acute) exacerbation"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 70.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 11 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Chronic obstructive pulmonary disease with (acute) exacerbation"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 52.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWBC: 13 #/hpf; Platelet Count: 137 K/uL; Creatinine: 0.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Unspecified viral hepatitis C with hepatic coma"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 52.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWBC: 13 #/hpf; Platelet Count: 137 K/uL; Creatinine: 0.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Unspecified viral hepatitis C with hepatic coma"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 68.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.2 mg/dL; White Blood Cells: 10.2 K/uL; % Hemoglobin A1c: 9.2 %\n\nClinical Notes:\nnone\n",
+    "output": "Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 68.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.2 mg/dL; White Blood Cells: 10.2 K/uL; % Hemoglobin A1c: 9.2 %\n\nClinical Notes:\nnone\n",
+    "output": "Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 51.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 146 K/uL; Hemoglobin: 16.4 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Acute on chronic diastolic heart failure"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 51.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 146 K/uL; Hemoglobin: 16.4 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Acute on chronic diastolic heart failure"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 76.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.4 g/dL; White Blood Cells: 3.1 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Malignant neoplasm of cortex of right adrenal gland"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 76.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.4 g/dL; White Blood Cells: 3.1 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Malignant neoplasm of cortex of right adrenal gland"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 63.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13.4 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Coronary atherosclerosis of native coronary artery"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 63.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13.4 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Coronary atherosclerosis of native coronary artery"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 73.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.5 mg/dL; Hemoglobin: 10.4 g/dL; Platelet Count: 131 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Calculus of gallbladder and bile duct without cholecystitis, with obstruction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 73.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.5 mg/dL; Hemoglobin: 10.4 g/dL; Platelet Count: 131 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Calculus of gallbladder and bile duct without cholecystitis, with obstruction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 75.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 16.9 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Hemoptysis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 75.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 16.9 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Hemoptysis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 76.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 12.6 g/dL; Platelet Count: 100 K/uL; White Blood Cells: 13.6 K/uL; WBC: 16 #/hpf; Creatinine: 1.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Nonrheumatic aortic (valve) stenosis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 76.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 12.6 g/dL; Platelet Count: 100 K/uL; White Blood Cells: 13.6 K/uL; WBC: 16 #/hpf; Creatinine: 1.3 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Nonrheumatic aortic (valve) stenosis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 39.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.5 g/dL; Platelet Count: 143 K/uL; White Blood Cells: 3.7 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Hematemesis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 39.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.5 g/dL; Platelet Count: 143 K/uL; White Blood Cells: 3.7 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Hematemesis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 90.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 137 K/uL; White Blood Cells: 2.4 K/uL; Hemoglobin: 11.1 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Hypertensive urgency"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 90.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 137 K/uL; White Blood Cells: 2.4 K/uL; Hemoglobin: 11.1 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Hypertensive urgency"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 89.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.3 mg/dL; Hemoglobin: 11 g/dL; Platelet Count: 131 K/uL; White Blood Cells: 3.5 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Intestinal infection due to other organism, not elsewhere classified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 89.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 1.3 mg/dL; Hemoglobin: 11 g/dL; Platelet Count: 131 K/uL; White Blood Cells: 3.5 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Intestinal infection due to other organism, not elsewhere classified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 70.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 135 K/uL; % Hemoglobin A1c: 7.7 %; Creatinine: 1.4 mg/dL; Hemoglobin: 13.9 g/dL; White Blood Cells: 18 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Coronary atherosclerosis of native coronary artery"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 70.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 135 K/uL; % Hemoglobin A1c: 7.7 %; Creatinine: 1.4 mg/dL; Hemoglobin: 13.9 g/dL; White Blood Cells: 18 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Coronary atherosclerosis of native coronary artery"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 70.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 12.5 g/dL; White Blood Cells: 13.8 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Calculus of gallbladder and bile duct with acute cholecystitis, with obstruction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 70.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 12.5 g/dL; White Blood Cells: 13.8 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Calculus of gallbladder and bile duct with acute cholecystitis, with obstruction"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 52.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 133 K/uL; Hemoglobin: 11.6 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Chronic hepatitis C without mention of hepatic coma"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 52.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 133 K/uL; Hemoglobin: 11.6 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Chronic hepatitis C without mention of hepatic coma"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 75.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13.2 g/dL; Platelet Count: 114 K/uL; White Blood Cells: 3 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Aortic valve disorders"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 75.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13.2 g/dL; Platelet Count: 114 K/uL; White Blood Cells: 3 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Aortic valve disorders"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 51.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 468 K/uL; White Blood Cells: 25.2 K/uL; Creatinine: 1.2 mg/dL; Hemoglobin: 8.7 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Sepsis, unspecified organism"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 51.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 468 K/uL; White Blood Cells: 25.2 K/uL; Creatinine: 1.2 mg/dL; Hemoglobin: 8.7 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Sepsis, unspecified organism"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 45.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 19.1 g/dL; White Blood Cells: 18.5 K/uL; Creatinine: 1.8 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Anoxic brain damage, not elsewhere classified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 45.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 19.1 g/dL; White Blood Cells: 18.5 K/uL; Creatinine: 1.8 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Anoxic brain damage, not elsewhere classified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 71.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Orthostatic hypotension"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 71.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Orthostatic hypotension"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 58.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.7 g/dL; Platelet Count: 33 K/uL; White Blood Cells: 12.5 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Aspergillosis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 58.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 8.7 g/dL; Platelet Count: 33 K/uL; White Blood Cells: 12.5 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Aspergillosis"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 91.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.3 g/dL; Platelet Count: 478 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Open wound of forehead, without mention of complication"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 91.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.3 g/dL; Platelet Count: 478 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Open wound of forehead, without mention of complication"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 47.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 14 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Closed fracture of other facial bones"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 47.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 14 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Closed fracture of other facial bones"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 45.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.2 g/dL; Platelet Count: 410 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Malignant neoplasm of left ovary"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 45.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.2 g/dL; Platelet Count: 410 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Malignant neoplasm of left ovary"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 85.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.9 g/dL; White Blood Cells: 19.1 K/uL; Platelet Count: 134 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Attention to tracheostomy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 85.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 9.9 g/dL; White Blood Cells: 19.1 K/uL; Platelet Count: 134 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Attention to tracheostomy"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 61.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.9 g/dL; White Blood Cells: 11.3 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Abscess of lung with pneumonia"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 61.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 10.9 g/dL; White Blood Cells: 11.3 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Abscess of lung with pneumonia"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 72.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13 g/dL; Creatinine: 1.3 mg/dL; Platelet Count: 147 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Diverticulitis of colon (without mention of hemorrhage)"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 72.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13 g/dL; Creatinine: 1.3 mg/dL; Platelet Count: 147 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Diverticulitis of colon (without mention of hemorrhage)"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 69.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.7 g/dL; White Blood Cells: 17.7 K/uL; Creatinine: 1.5 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Spinal stenosis, lumbar region with neurogenic claudication"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 69.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 11.7 g/dL; White Blood Cells: 17.7 K/uL; Creatinine: 1.5 mg/dL\n\nClinical Notes:\nnone\n",
+    "output": "Spinal stenosis, lumbar region with neurogenic claudication"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 58.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13 g/dL; White Blood Cells: 12 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Takotsubo syndrome"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 58.0\nSex: M\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nHemoglobin: 13 g/dL; White Blood Cells: 12 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Takotsubo syndrome"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 34.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 16.8 K/uL; Hemoglobin: 8 g/dL; WBC: 124 #/hpf\n\nClinical Notes:\nnone\n",
+    "output": "Gestational [pregnancy-induced] hypertension without significant proteinuria, third trimester"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 34.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nWhite Blood Cells: 16.8 K/uL; Hemoglobin: 8 g/dL; WBC: 124 #/hpf\n\nClinical Notes:\nnone\n",
+    "output": "Gestational [pregnancy-induced] hypertension without significant proteinuria, third trimester"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 63.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 2.1 mg/dL; Hemoglobin: 10.8 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Calculus of ureter"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 63.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nCreatinine: 2.1 mg/dL; Hemoglobin: 10.8 g/dL\n\nClinical Notes:\nnone\n",
+    "output": "Calculus of ureter"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 56.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\n% Hemoglobin A1c: 6.3 %; Hemoglobin: 11.6 g/dL; Platelet Count: 92 K/uL; White Blood Cells: 10.8 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Atherosclerotic heart disease of native coronary artery with unstable angina pectoris"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 56.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\n% Hemoglobin A1c: 6.3 %; Hemoglobin: 11.6 g/dL; Platelet Count: 92 K/uL; White Blood Cells: 10.8 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Atherosclerotic heart disease of native coronary artery with unstable angina pectoris"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 48.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 146 K/uL; White Blood Cells: 3.2 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Major depressive affective disorder, recurrent episode, unspecified"
+  },
+  {
+    "instruction": "You are an experienced doctor. Given a patient's clinical note, identify the most likely disease.",
+    "input": "Patient:\nAge: 48.0\nSex: F\n\nSymptoms:\nunknown\n\nVital Signs:\nnone\n\nLab Findings:\nPlatelet Count: 146 K/uL; White Blood Cells: 3.2 K/uL\n\nClinical Notes:\nnone\n",
+    "output": "Major depressive affective disorder, recurrent episode, unspecified"
+  }
+]
