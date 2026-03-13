@@ -1,6 +1,10 @@
 {
   "total_cases": 2796,
-  "unique_admissions": 2000,
+  "unique_admissions": 1398,
+  "train_admissions": 1258,
+  "test_admissions": 140,
+  "train_cases": 2516,
+  "test_cases": 280,
   "diagnosis_distribution": {
     "Acute kidney failure, unspecified": 26,
     "Urinary tract infection, site not specified": 23,

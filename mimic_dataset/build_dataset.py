@@ -505,22 +505,40 @@ def _make_incomplete_variant(
     sample: Dict[str, Any],
     rng: random.Random,
 ) -> Dict[str, Any]:
+    """
+    Create a high-uncertainty variant by hiding some evidence and
+    explicitly recording *why* information is missing.
+    """
     s = json.loads(json.dumps(sample))  # deep copy w/o external deps
     s["labels"]["uncertainty_level"] = "high_uncertainty"
 
     structured = s.get("structured_input", {})
+    orig_struct = sample.get("structured_input", {}) or {}
+
     # randomly remove some evidence sources
     drops = rng.sample(["labs", "vitals", "symptoms", "note"], k=2)
+    reasons: List[str] = []
+
     if "labs" in drops:
+        if orig_struct.get("labs"):
+            reasons.append("Laboratory results partially hidden")
         structured["labs"] = {}
+
     if "vitals" in drops:
+        if orig_struct.get("vitals"):
+            reasons.append("Vital signs information partially hidden")
         structured["vitals"] = {}
+
     if "symptoms" in drops:
+        if orig_struct.get("symptoms"):
+            reasons.append("Presenting symptoms description partially hidden")
         structured["symptoms"] = []
+
     if "note" in drops:
         # strip the notes portion from input_text by removing everything after "Clinical Notes:"
         it = s.get("input_text", "")
         if "Clinical Notes:" in it:
+            reasons.append("Detailed clinical narrative partially hidden")
             it = it.split("Clinical Notes:", 1)[0] + "Clinical Notes:\nnone\n"
         s["input_text"] = it
 
@@ -530,6 +548,9 @@ def _make_incomplete_variant(
         structured.get("vitals", {}) or {},
         structured.get("labs", {}) or {},
     )
+    # attach explicit uncertainty reasons
+    s["labels"]["uncertainty_reasons"] = reasons
+
     s["structured_input"] = structured
     return s
 
@@ -663,90 +684,124 @@ def build_dataset(
         max_per_hadm=200,
     )
 
-    out_path = os.path.join(config.out_dir, "data.jsonl")
+    # We want train/test split by admission so that complete & incomplete
+    # variants of the same case go to the same split.
+    admission_groups: List[Dict[str, Any]] = []
+
     stats_dx = Counter()
-    total_written = 0
     total_len = 0
 
-    with open(out_path, "w", encoding="utf-8") as f:
-        for adm in tqdm(admissions, desc="Building cases"):
-            hid = adm.get(hadm_col)
-            sid = adm.get(subj_col)
-            if hid is None or sid is None:
-                continue
-            try:
-                hid_i = int(hid)
-                sid_i = int(sid)
-            except Exception:
-                continue
+    for adm in tqdm(admissions, desc="Building cases"):
+        hid = adm.get(hadm_col)
+        sid = adm.get(subj_col)
+        if hid is None or sid is None:
+            continue
+        try:
+            hid_i = int(hid)
+            sid_i = int(sid)
+        except Exception:
+            continue
 
-            dxs = dx_by_hadm.get(hid_i, [])
-            if not dxs:
-                continue
-            primary = dxs[0]
-            diffs = dxs[1:10]
+        dxs = dx_by_hadm.get(hid_i, [])
+        if not dxs:
+            continue
+        primary = dxs[0]
+        diffs = dxs[1:10]
 
-            p = patients_map.get(sid_i, {})
-            age = _infer_age(p, adm)
-            sex = _infer_sex(p)
+        p = patients_map.get(sid_i, {})
+        age = _infer_age(p, adm)
+        sex = _infer_sex(p)
 
-            note_texts = notes_by_hadm.get(hid_i, [])
-            note_summary = simple_note_summary(note_texts)
-            symptoms = []
-            if note_texts:
-                symptoms = extract_chief_complaint(note_texts[0])
+        note_texts = notes_by_hadm.get(hid_i, [])
+        note_summary = simple_note_summary(note_texts)
+        symptoms = []
+        if note_texts:
+            symptoms = extract_chief_complaint(note_texts[0])
 
-            labs = _render_abnormal_labs(labs_events.get(hid_i, []))
-            vitals = _render_vitals(vitals_events.get(hid_i, []))
+        labs = _render_abnormal_labs(labs_events.get(hid_i, []))
+        vitals = _render_vitals(vitals_events.get(hid_i, []))
 
-            # Filtering: require some clinical text
-            if len(note_summary) < config.min_note_chars and not (labs or vitals or symptoms):
-                continue
+        # Filtering: require some clinical text or structured evidence
+        if len(note_summary) < config.min_note_chars and not (labs or vitals or symptoms):
+            continue
 
-            input_text = render_case_text(
-                age=age,
-                sex=sex,
-                symptoms=symptoms,
-                vitals=vitals,
-                labs=labs,
-                note_summary=note_summary,
-            )
+        input_text = render_case_text(
+            age=age,
+            sex=sex,
+            symptoms=symptoms,
+            vitals=vitals,
+            labs=labs,
+            note_summary=note_summary,
+        )
 
-            structured_input = {
-                "age": age,
-                "sex": sex,
-                "symptoms": symptoms,
-                "vitals": vitals,
-                "labs": labs,
+        structured_input = {
+            "age": age,
+            "sex": sex,
+            "symptoms": symptoms,
+            "vitals": vitals,
+            "labs": labs,
+        }
+        evidence = _build_evidence(symptoms, vitals, labs)
+
+        complete = {
+            "case_id": str(hid_i),
+            "input_text": input_text,
+            "structured_input": structured_input,
+            "labels": {
+                "primary_diagnosis": primary,
+                "differential_diagnoses": diffs,
+                "evidence": evidence,
+                "uncertainty_level": "low_uncertainty",
+                "uncertainty_reasons": [],
+            },
+        }
+
+        incomplete = _make_incomplete_variant(complete, rng)
+
+        admission_groups.append(
+            {
+                "hadm_id": hid_i,
+                "primary": primary,
+                "samples": [complete, incomplete],
             }
-            evidence = _build_evidence(symptoms, vitals, labs)
+        )
 
-            complete = {
-                "case_id": str(hid_i),
-                "input_text": input_text,
-                "structured_input": structured_input,
-                "labels": {
-                    "primary_diagnosis": primary,
-                    "differential_diagnoses": diffs,
-                    "evidence": evidence,
-                    "uncertainty_level": "low_uncertainty",
-                },
-            }
+        stats_dx[primary] += 1
+        total_len += len(complete.get("input_text", "")) + len(incomplete.get("input_text", ""))
 
-            incomplete = _make_incomplete_variant(complete, rng)
+    # Train/test split (90/10 by admission)
+    rng.shuffle(admission_groups)
+    n_adm = len(admission_groups)
+    n_train = int(0.9 * n_adm)
+    train_groups = admission_groups[:n_train]
+    test_groups = admission_groups[n_train:]
 
-            for sample in (complete, incomplete):
-                f.write(json.dumps(sample, ensure_ascii=False) + "\n")
-                total_written += 1
-                total_len += len(sample.get("input_text", ""))
+    train_path = os.path.join(config.out_dir, "train.jsonl")
+    test_path = os.path.join(config.out_dir, "test.jsonl")
 
-            stats_dx[primary] += 1
+    total_cases = 0
+
+    with open(train_path, "w", encoding="utf-8") as ft:
+        for g in train_groups:
+            for s in g["samples"]:
+                ft.write(json.dumps(s, ensure_ascii=False) + "\n")
+                total_cases += 1
+
+    with open(test_path, "w", encoding="utf-8") as fs:
+        for g in test_groups:
+            for s in g["samples"]:
+                fs.write(json.dumps(s, ensure_ascii=False) + "\n")
+                total_cases += 1
 
     meta = {
-        "total_cases": total_written,
-        "unique_admissions": len({r.get(hadm_col) for r in admissions if r.get(hadm_col) is not None}),
+        "total_cases": total_cases,
+        "unique_admissions": n_adm,
+        "train_admissions": len(train_groups),
+        "test_admissions": len(test_groups),
+        "train_cases": len(train_groups) * 2,
+        "test_cases": len(test_groups) * 2,
         "diagnosis_distribution": dict(stats_dx.most_common(200)),
-        "average_case_length": (total_len / total_written) if total_written else 0.0,
+        "average_case_length": (total_len / total_cases) if total_cases else 0.0,
         "selected_tables": {
             "admissions": getattr(admissions_table, "table_id", None),
             "patients": getattr(patients_table, "table_id", None),
