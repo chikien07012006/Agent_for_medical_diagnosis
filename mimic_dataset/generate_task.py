@@ -9,8 +9,8 @@ import os
 from typing import List, Dict, Any
 
 # ========== CONFIGURATION ==========
-INPUT_JSON = "D:/AI4LIFE/experiment/kien_repo/Agent_for_medical_diagnosis/dataset/test.jsonl"               # Path to your input JSON file
-OUTPUT_DIR = "./confidx/data/alpaca/"     # Where to save the task files
+INPUT_JSON = "path"               # Path to your input JSON file
+OUTPUT_DIR = "path"     # Where to save the task files
 # ====================================
 
 # Ensure output directory exists
